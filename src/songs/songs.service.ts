@@ -12,4 +12,8 @@ export class SongsService {
     findAll():any{
       return this.songs
     }
+
+    findOne(id){
+        return `get song by id ${id}`
+    }
 }
